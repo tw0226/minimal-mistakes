@@ -2,7 +2,7 @@
 published: true
 layout: single
 title: 2D/3D Pose Estimation and Action Recognition using Multitask Deep Learning
-category: post
+category: [Action Recognition, Deep learning, Pose Estimation]
 toc: true
 tags: [Action Recognition, Deep learning, Pose Estimation]
 comments: true

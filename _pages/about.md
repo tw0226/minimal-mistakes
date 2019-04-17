@@ -16,4 +16,8 @@ last_modified_at: 2019-04-03T15:15:09-04:00
 toc: true
 ---
 
-### Other:
+Major : Computer Science
+
+Graduated Kangwon University in Chuncheon, South Korea.
+
+Studying **Action Recognition** using Computer Vision & Deep Learning.
