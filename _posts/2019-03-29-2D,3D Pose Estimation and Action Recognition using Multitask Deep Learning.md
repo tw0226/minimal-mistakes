@@ -6,6 +6,8 @@ category: [Action Recognition, Deep learning, Pose Estimation]
 toc: true
 tags: [Action Recognition, Deep learning, Pose Estimation]
 comments: true
+toc_sticky: true
+read_time: true
 use_math : true
 
 ---
@@ -30,7 +32,7 @@ pose estimation 네트워크 단계까지 end-to-end 학습이 가능한지 증�
 
 논문의 Introduction 마지막에 보면 다음과 같은 내용이 있다.
 
-## 논문에서 말하고 싶은 것
+## Introduction
 
 1. 3D pose estimation에서 SOTA급 성능을 달성하고, 2D pose estimation에서 regression model을 사용한 것들 중 가장 높은 정확도이다.
 
