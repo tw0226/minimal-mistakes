@@ -1,6 +1,6 @@
 ---
 published: true
-layout: single
+layout: post
 title: Stacked Hourglass Networks for Human Pose Estimation
 category: [Deep learning, Pose Estimation]
 toc: true
