@@ -1,6 +1,6 @@
 ---
 published: true
-layout: post
+layout: single
 title: Stacked Hourglass Networks for Human Pose Estimation
 category: [Deep learning, Pose Estimation]
 toc: true
@@ -14,7 +14,7 @@ use_math : true
 
 읽은 논문
 
-# Stacked Hourglass Networks for Human Pose Estimation
+## Stacked Hourglass Networks for Human Pose Estimation
 
 핵심 선행 논문
 

@@ -11,9 +11,7 @@ use_math : true
 
 ---
 
-읽은 논문
-
-# Inception-v4, Inception-ResNet and the Impact of Residual Connections on Learning
+## Inception-v4, Inception-ResNet and the Impact of Residual Connections on Learning
 
 핵심 선행 논문
 
