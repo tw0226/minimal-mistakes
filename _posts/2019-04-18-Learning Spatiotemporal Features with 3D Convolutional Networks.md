@@ -71,17 +71,13 @@ depth를 3-3-5-5-7, 7-5-5-3-3, 그리고 3-3-3-3-3 으로 이렇게 3가지에 �
 
 결과적으로 depth가 3으로 일정한 것이 성능이 더 좋게 나왔다.
 
-논문에서는 첫번째 feature는 처음에는 사람을 찾고, 그 다음으로 움직이는 특징을 잡는다고 그림을 예시로 보여준다.
-
-![Imgur](https://i.imgur.com/Hr0kydM.png)
-
 자세히 보기 어렵지만 아래 사진을 보면 첫번째로 사람을 찾으려고 하고, 그 다음으로는 움직임을 찾는다고 한다.
 
 ![Imgur](https://i.imgur.com/1Vd0a9G.png)
 
 ### SpatioTemporal feature learning
 
-그 다음으로 다른 논문들에서 나온 성능들과 비교를 진행하였는데, 그 결과는 다음과 같다.
+3D Convolution을 다른 논문들에서 나온 성능들과 비교를 진행하였는데, 그 결과는 다음과 같다.
 
 ![Imgur](https://i.imgur.com/SFMMro9.png)
 
@@ -95,32 +91,30 @@ depth를 3-3-5-5-7, 7-5-5-3-3, 그리고 3-3-3-3-3 으로 이렇게 3가지에 �
 
 ![Imgur](https://i.imgur.com/JRT8hmg.png)
 
-위의 표에 따르면 Optical Flow를 이용하는 two stream network, RNN 계열을 사용한 LRCN보다 성능이 좋다.
+위의 표에 따르면 **Optical Flow를 이용하는 two stream network, RNN 계열을 사용한 LRCN보다 성능이 좋다.**
 
 ### Compact Feature
 
 논문에서 3D Convolution의 밀도를 평가하기 위해 PCA를 사용했고, iDT와 비교를 진행하였다.
 
-아래는 그에 대한 결과로 저차원으로 PCA를 시켰을 때 3D Convolution의 성능이 더 좋았다.
+아래는 그에 대한 결과로 저차원으로 PCA를 시켰을 때 3D Convolution의 성능이 더 좋았고, 3D Convolution이
 
-![Imgur](https://i.imgur.com/DGYtSVP.png)
+일반화 기능을 보여주는 Feature가 있는지 체크하고자 t-SNE를 사용해 2차원으로 투영시켰다.
 
-그 다음 실험으로 데이터셋 전반에 걸치는 좋은 일반화 기능을 보여주는 Feature가 있는지 체크하고자 t-SNE를 사용해 2차원으로 투영시켰다.
+![Imgur](https://i.imgur.com/DGYtSVP.png) ![Imgur](https://i.imgur.com/yyBtCsD.png)
 
-![Imgur](https://i.imgur.com/yyBtCsD.png)
-
-3D convolution이 얼마나 feature embedding이 잘 되었는지 보여준다.
+위 사진은 3D convolution이 얼마나 feature embedding이 잘 되었는지 보여준다.
 
 ## Action Similarity Labeling
 
-ASLAN Dataset에 대해서 진행해본 결과로 아래 사진과 같다.
+아래는 ASLAN Dataset에 대해서 진행해본 결과로 아래 다음과 같다.
 
 ![Imgur](https://i.imgur.com/yX9IG3j.png)
 ![Imgur](https://i.imgur.com/PsFiyTb.png)
 
 ## Scene and Object Recognition
 
-YUPENN, Maryland Dataset에 대해서도 진행해본 결과로 아래 사진과 같다.
+마찬가지로 YUPENN, Maryland Dataset에 대해서도 진행해본 결과로 아래 사진과 같다.
 
 ![Imgur](https://i.imgur.com/WkolacM.png)
 

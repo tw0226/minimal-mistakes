@@ -108,7 +108,7 @@ analytics:
 author:
   name             : "Taewoo Kim"
   avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "in Master degree Computer Vision & Image Processing Lab in Kangwon University, ChunCheon."
+  bio              : "Master degree Computer Vision & Image Processing Lab in Kangwon University, ChunCheon."
   location         : "Chuncheon, South Korea"
   email            : "kimraewoo99@gmail.com"
   links:
@@ -294,7 +294,7 @@ defaults:
       layout: single
       author_profile: true
       read_time: true
-      comments: # true
+      comments: true
       share: true
       related: true
   - scope:
