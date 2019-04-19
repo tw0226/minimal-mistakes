@@ -12,7 +12,7 @@ toc_sticky: true
 
 읽은 논문
 
-# 2D/3D Pose Estimation and Action Recognition using Multitask Deep Learning
+## 2D/3D Pose Estimation and Action Recognition using Multitask Deep Learning
 
 핵심 선행 논문
 
@@ -113,7 +113,7 @@ soft-argmax의 첫번째 단계로 네트워크의 입력 HeatMap을 softmax를 
 
 다음으로 Pose Recognition 부분인데 Pose Recognition 분야를 처음 해봐서 그런지 이 부분이 아주 흥미롭다.
 Pose estimation의 예측 값으로 각 관절들마다 값이 나오게 되는데, 이를 시간 축으로 쌓아서 Convolution을 한다.
-구체적인 예를 들어서 말하면, 
+구체적인 예를 들어서 말하면,
 
 $$\hat{X} = [\hat{X}_{0}, \hat{X}_{1},\hat{X}_{2}, ... , \hat{X}_{n}]$$
 
