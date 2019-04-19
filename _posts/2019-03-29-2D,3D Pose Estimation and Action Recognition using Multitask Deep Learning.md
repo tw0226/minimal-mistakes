@@ -7,8 +7,6 @@ toc: true
 tags: [Action Recognition, Deep learning, Pose Estimation]
 comments: true
 toc_sticky: true
-read_time: true
-use_math : true
 
 ---
 
@@ -115,11 +113,11 @@ soft-argmax의 첫번째 단계로 네트워크의 입력 HeatMap을 softmax를 
 
 다음으로 Pose Recognition 부분인데 Pose Recognition 분야를 처음 해봐서 그런지 이 부분이 아주 흥미롭다.
 Pose estimation의 예측 값으로 각 관절들마다 값이 나오게 되는데, 이를 시간 축으로 쌓아서 Convolution을 한다.
-구체적인 예를 들어서 말하면,
+구체적인 예를 들어서 말하면, 
 
-$\hat{X}$ = [$\hat{X}_{0}$, $\hat{X}_{1}$,$\hat{X}_{2}$, ... , $\hat{X}_{n}$]
+$$\hat{X} = [\hat{X}_{0}, \hat{X}_{1},\hat{X}_{2}, ... , \hat{X}_{n}]$$
 
-$\hat{Y}$ = [$\hat{Y}_{0}$, $\hat{Y}_{1}$,$\hat{Y}_{2}$, ... , $\hat{Y}_{n}$]
+$$\hat{Y} = [\hat{Y}_{0}, \hat{Y}_{1},\hat{Y}_{2}, ... , \hat{Y}_{n}]$$
 
 N은 관절의 개수고, 각 index는 관절들의 예측값을 말한다고 가정하자.
 
