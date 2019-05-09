@@ -47,9 +47,8 @@ pose estimation 네트워크 단계까지 end-to-end 학습이 가능한지 증�
 Pose estimation을 해결 하는 데에는 보통 두가지의 접근 방식이 있는데, Detection 기반 방식과 Regression 기반 방식이 있다.
 Regression 방식은 초기에 많이 사용되었지만, Detection 기반이 성능이 더 좋게 나오자 상대적으로 덜 사용되고 있는 추세라고 한다. ([1] Introduction 참고)
 하지만 이 논문에서는 Regression 으로 접근한다.
-(Detection으로 하면 Argmax로 가야한다는데 흠.. 기억이 잘..)
 
-보통 행동 인식까지는 네트워크 구조가 4단계로 되어있는데,
+내 생각으로 이 논문에서 행동 인식까지는 네트워크 구조가 4단계로 되어있는 것으로 보인다.
 
 1. 특징 추출을 위한 CNN 네트워크
 
@@ -57,7 +56,7 @@ Regression 방식은 초기에 많이 사용되었지만, Detection 기반이 �
 
 3. 탐지된 관절들을 가지고 자세를 추정하는 Pose 네트워크
 
-4. 자세들(t Frames)을 가지고 행동을 인식하는 Action 네트워크로 되어있다.
+4. 자세들(t Frames)을 가지고 행동을 인식하는 Action 네트워크로 되어있는 듯 하다.
 
 ## 네트워크 구조
 
