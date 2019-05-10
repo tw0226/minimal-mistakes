@@ -16,8 +16,8 @@ last_modified_at: 2019-04-03T15:15:09-04:00
 toc: true
 ---
 
-Major : Computer Science
+강원대학교에서 '컴퓨터정보통신공학'을 전공하였고,
 
-Graduated Kangwon University in Chuncheon, South Korea.
+현재 컴퓨터비전 & 영상처리 연구실에서 석사과정으로 딥러닝을 이용한
 
-Studying **Action Recognition** using Computer Vision & Deep Learning.
+'Human Pose Estimation', 'Human Action Recognition'을 공부하고 있습니다.

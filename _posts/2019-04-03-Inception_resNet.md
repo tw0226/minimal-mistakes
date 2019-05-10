@@ -81,9 +81,10 @@ Inception-resNet-v1, v2는 각각 Inception-v3, v4와
 
 논문에서 학습을 시킨 결과는 다음 사진과 같다.
 
-[Inception-v3, Inception-resNet v1] [Inception-v4, Inception-resNet v2]
+![Imgur](https://i.imgur.com/OrPLSqc.png)
+![Imgur](https://i.imgur.com/rr4A1hl.png)
 
-[Network error rate]
+![Imgur](https://i.imgur.com/41Z5x6x.png)
 
 위의 그래프를 보면 마지막 부분은 비슷하지만, resNet을 이용한 모델은 학습이 조금 더 빠르게 진행되는 것을 알 수 있지만, 결과적으로 에러율은 비슷하다고 볼 수 있다.
 

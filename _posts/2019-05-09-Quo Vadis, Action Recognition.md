@@ -32,7 +32,7 @@ toc_sticky: true
 
 하지만 비디오라는 도메인에서는 (W, H, L) 라는 3차원 구조와 시간적인 특징을 잡아야 하므로 2D 구조에서 이루어진 Network들을 사용할 수 없었다.
 
-    이 논문은 3D 구조를 이용하게 되는 비디오 도메인에서 pre-trained된 Network 구조를 이용할 수 없을까?
+이 논문은 3D 구조를 이용하게 되는 비디오 도메인에서 pre-trained된 Network 구조를 이용할 수 없을까?
 
 라는 질문을 시작으로 'Two-Stream Inflated 3D Convolution(I3D)' 구조를 제안한다.
 
@@ -131,7 +131,7 @@ Convolution이나 pooling을 통해 나오는 원본에 대한 수용영역은 �
 
 ##### Two 3D Streams
 
-3D ConvNet은 RGB입력에서 모션 피쳐를 직접 학습할 수 있어야 하지만, feedforward 계산만 수행하는 반면, 
+3D ConvNet은 RGB입력에서 모션 피쳐를 직접 학습할 수 있어야 하지만, feedforward 계산만 수행하는 반면,
 
 optical flow는 어떤 의미에서는 반복적이다. RGB입력은 이런 반복성이 부족하기 때문에, two-stream 구조로 넣어 원활한 흐름을 갖게 하는 것이 중요하다고 한다.
 
@@ -169,7 +169,7 @@ C3D 같아 보이면서도 pre-trained Inception-V1을 베이스로 하는 3D Co
 
 ![Imgur](https://i.imgur.com/brooELo.png)
 
-마찬가지로 다른 데이터셋인 UCF-101과 HMDB-51에 적용했을 때로, 
+마찬가지로 다른 데이터셋인 UCF-101과 HMDB-51에 적용했을 때로,
 한 cell 기준으로 왼쪽이 ImageNet을 pre-training 시킨 것, 오른쪽은 학습시키지 않았을 때 결과이다.
 Original은 같은 데이터셋에서 학습과 테스트를 진행했을 때,
 
