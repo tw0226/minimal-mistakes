@@ -1,8 +1,11 @@
 ---
-layout: post
+published: true
+layout: single
 title: A Closer Look at Spatiotemporal Convolutions for Action Recognition
 tags: [Deep learning, Action Recognition]
-excerpt_separator: <!--more-->
+comments: true
+toc_sticky: true
+read_time: true
 use_math : true
 ---
 
